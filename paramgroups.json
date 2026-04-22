@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Required Parameters",
+        "description": "Essential inputs required to run the differential expression analysis",
+        "parameters": [
+            "count.matrix.file",
+            "sample.groups.file",
+            "comparison.groups"
+        ],
+        "hidden": false
+    },
+    {
+        "name": "Analysis Settings",
+        "description": "Core analysis options including normalization and statistical methods",
+        "parameters": [
+            "norm.method",
+            "robust.estimation",
+            "abundance.trend",
+            "poisson.bound"
+        ],
+        "hidden": false
+    },
+    {
+        "name": "Quality Control",
+        "description": "Filtering and significance thresholds for identifying differentially expressed genes",
+        "parameters": [
+            "min.count",
+            "min.samples",
+            "fdr.threshold",
+            "fold.change.threshold"
+        ],
+        "hidden": false
+    },
+    {
+        "name": "Output Options",
+        "description": "Output formatting and visualization settings",
+        "parameters": [
+            "output.prefix",
+            "top.genes",
+            "create.plots"
+        ],
+        "hidden": false
+    }
+]
